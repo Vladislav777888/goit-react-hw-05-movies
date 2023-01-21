@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const InfoList = styled.ul`
@@ -13,7 +13,7 @@ export const InfoListItem = styled.li`
   margin-left: 16px;
 `;
 
-export const StyledLink = styled(NavLink)`
+export const StyledLink = styled(Link)`
   color: ${p => p.theme.colors.blue};
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
